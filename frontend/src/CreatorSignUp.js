@@ -121,7 +121,7 @@ function CreatorSignUp() {
     return (
         <div style={styles.container}>
             <h2 style={styles.h2}>Set Trust Line</h2>
-            <p>Scan this with xaman to add the RLUSD token to your new wallet.</p>
+            <p>Scan this with Xaman to add the RLUSD token to your new wallet.</p>
             <div style={styles.qrCodeContainer}>
                 <QRCodeSVG value={JSON.stringify(xamanPayload)} size={256} />
             </div>
